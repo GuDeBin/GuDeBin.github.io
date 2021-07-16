@@ -9,7 +9,6 @@ const projects = [
 const projectsEl = document.getElementById("projects");
 
 projects.forEach((project) => {
-  console.log(project);
   projectEl = document.createElement("div");
   projectEl.innerHTML = `
   <span class="day">Dya ${project.number}</span>
@@ -19,7 +18,6 @@ projects.forEach((project) => {
     <a href="projects/${project.name}/index.html" target="_blank">Live Demo</a>
   </div>
   `;
-  console.log(project.name);
   projectsEl.appendChild(projectEl);
 });
 
