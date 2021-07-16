@@ -182,8 +182,27 @@ h2 {
   color: white;
 }
 /* 媒体查询-700px */
+@media (max-width: 960px) {
+  .showcase h1 {
+    font-size: 30px;
+  }
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 @media (max-width: 700px) {
+  .showcase h1 {
+    font-size: 20px;
+  }
   .main-nav .logo {
     width: 50px;
+  }
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .projects {
+    grid-template-columns: 1fr;
   }
 }

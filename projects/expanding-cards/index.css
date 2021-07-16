@@ -46,3 +46,13 @@ body {
   transition: opacity 0.3s ease-in 0.4s;
   text-transform: capitalize;
 }
+/* 媒体查询 */
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+  .panel:nth-child(4),
+  .panel:nth-child(5) {
+    display: none;
+  }
+}
