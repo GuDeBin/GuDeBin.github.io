@@ -116,22 +116,71 @@ h2 {
 }
 /* 测试 */
 .projects {
-  height: 600px;
-  background-color: pink;
+  display: grid;
+  /* grid-template-columns: 100px 100px 100px; */
+  /* grid-template-rows: 100px 100px 100px; */
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px;
 }
-.projects ul {
-  display: flex;
-  justify-content: space-between;
+.projects img {
+  width: 100%;
+  height: 100%;
 }
-.projects li {
-  width: 240px;
-  height: 240px;
-  background-color: rebeccapurple;
-  border: 1px solid black;
-  text-align: center;
-  line-height: 240px;
+.projects > div {
+  height: 100%;
+  position: relative;
 }
 
+.projects .day {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rebeccapurple;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-bottom-left-radius: 5px;
+}
+.projects > div:hover .content {
+  opacity: 0.98;
+}
+.projects .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rebeccapurple;
+  transition: 0.3s ease-in;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.projects h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.projects a {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 0px;
+  transition: all 0.5s ease 0s;
+  background-color: #0181f5;
+}
+.projects a:hover {
+  transform: scale(0.9);
+  opacity: 0.9;
+  color: white;
+}
 /* 媒体查询-700px */
 @media (max-width: 700px) {
   .main-nav .logo {
