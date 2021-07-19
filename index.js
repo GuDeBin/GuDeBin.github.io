@@ -17,6 +17,18 @@ const projects = [
     imgLink: "public/images/projectImages/rotating-navigation-animation.png",
     url: "projects/rotating-navigation-animation/index.html",
   },
+  {
+    number: 4,
+    name: "hidden-search-widget",
+    imgLink: "public/images/projectImages/hidden-search-widget.png",
+    url: "projects/hidden-search-widget/index.html",
+  },
+  {
+    number: 5,
+    name: "blurry-loading",
+    imgLink: "public/images/projectImages/blurry-loading.png",
+    url: "projects/blurry-loading/index.html",
+  },
 ];
 
 const projectsEl = document.getElementById("projects");
