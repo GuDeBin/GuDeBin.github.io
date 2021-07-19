@@ -11,6 +11,12 @@ const projects = [
     imgLink: "public/images/projectImages/progress-steps.png",
     url: "projects/progress-steps/index.html",
   },
+  {
+    number: 3,
+    name: "rotating-navigation",
+    imgLink: "public/images/projectImages/rotating-navigation-animation.png",
+    url: "projects/rotating-navigation-animation/index.html",
+  },
 ];
 
 const projectsEl = document.getElementById("projects");
