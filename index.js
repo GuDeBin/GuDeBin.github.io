@@ -29,6 +29,24 @@ const projects = [
     imgLink: "public/images/projectImages/blurry-loading.png",
     url: "projects/blurry-loading/index.html",
   },
+  {
+    number: 6,
+    name: "scroll-animation",
+    imgLink: "public/images/projectImages/6-scroll-animation.png",
+    url: "projects/scroll-animation/index.html",
+  },
+  {
+    number: 7,
+    name: "split-landing-page",
+    imgLink: "public/images/projectImages/7-split-landing-page.png",
+    url: "projects/split-landing-page/index.html",
+  },
+  {
+    number: 8,
+    name: "form-wave",
+    imgLink: "public/images/projectImages/8-form-wave.png",
+    url: "projects/form-wave/index.html",
+  },
 ];
 
 const projectsEl = document.getElementById("projects");
