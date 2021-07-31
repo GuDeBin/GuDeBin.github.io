@@ -47,6 +47,12 @@ const projects = [
     imgLink: "public/images/projectImages/8-form-wave.png",
     url: "projects/form-wave/index.html",
   },
+  {
+    number: 9,
+    name: "sound-board",
+    imgLink: "public/images/projectImages/9-sound-board.png",
+    url: "projects/sound-board/index.html",
+  },
 ];
 
 const projectsEl = document.getElementById("projects");
