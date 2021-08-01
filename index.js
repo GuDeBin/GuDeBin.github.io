@@ -53,6 +53,12 @@ const projects = [
     imgLink: "public/images/projectImages/9-sound-board.png",
     url: "projects/sound-board/index.html",
   },
+  {
+    number: 10,
+    name: "dad-jokes",
+    imgLink: "public/images/projectImages/10-dad-jokes.png",
+    url: "projects/dad-jokes/index.html",
+  },
 ];
 
 const projectsEl = document.getElementById("projects");
