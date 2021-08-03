@@ -59,6 +59,24 @@ const projects = [
     imgLink: "public/images/projectImages/10-dad-jokes.png",
     url: "projects/dad-jokes/index.html",
   },
+  {
+    number: 11,
+    name: "event-keycodes",
+    imgLink: "public/images/projectImages/11-event-keycodes.png",
+    url: "projects/event-keycodes/index.html",
+  },
+  {
+    number: 12,
+    name: "常见问题",
+    imgLink: "public/images/projectImages/12-faq-collapse.png",
+    url: "projects/FAQ-collapse/index.html",
+  },
+  {
+    number: 13,
+    name: "随机选择",
+    imgLink: "public/images/projectImages/13-random-choice-picker.png",
+    url: "projects/random-choice-picker/index.html",
+  },
 ];
 
 const projectsEl = document.getElementById("projects");
