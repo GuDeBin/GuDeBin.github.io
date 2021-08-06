@@ -77,6 +77,18 @@ const projects = [
     imgLink: "public/images/projectImages/13-random-choice-picker.png",
     url: "projects/random-choice-picker/index.html",
   },
+  {
+    number: 14,
+    name: "动态导航条",
+    imgLink: "public/images/projectImages/14-animated-navigation.png",
+    url: "projects/animated-navigation/index.html",
+  },
+  {
+    number: 15,
+    name: "增量计数",
+    imgLink: "public/images/projectImages/15-incrementing-counter.png",
+    url: "projects/incrementing-counter/index.html",
+  },
 ];
 
 const projectsEl = document.getElementById("projects");
