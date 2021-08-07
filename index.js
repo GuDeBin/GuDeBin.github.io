@@ -89,6 +89,12 @@ const projects = [
     imgLink: "public/images/projectImages/15-incrementing-counter.png",
     url: "projects/incrementing-counter/index.html",
   },
+  {
+    number: 16,
+    name: "喝水",
+    imgLink: "public/images/projectImages/16-drink-water.png",
+    url: "projects/drink-water/index.html",
+  },
 ];
 
 const projectsEl = document.getElementById("projects");
