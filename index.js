@@ -95,6 +95,12 @@ const projects = [
     imgLink: "public/images/projectImages/16-drink-water.png",
     url: "projects/drink-water/index.html",
   },
+  {
+    number: 17,
+    name: "测试跨域",
+    imgLink: "public/images/projectImages/17-movie-app.png",
+    url: "projects/movie-app/index.html",
+  },
 ];
 
 const projectsEl = document.getElementById("projects");
