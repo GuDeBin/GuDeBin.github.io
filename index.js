@@ -97,9 +97,9 @@ const projects = [
   },
   {
     number: 17,
-    name: "测试跨域",
-    imgLink: "public/images/projectImages/17-movie-app.png",
-    url: "projects/movie-app/index.html",
+    name: "背景轮播图",
+    imgLink: "public/images/projectImages/18-background-slider.png",
+    url: "projects/background-slider/index.html",
   },
 ];
 
