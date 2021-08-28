@@ -101,6 +101,18 @@ const projects = [
     imgLink: "public/images/projectImages/18-background-slider.png",
     url: "projects/background-slider/index.html",
   },
+  {
+    number: 18,
+    name: "时钟",
+    imgLink: "public/images/projectImages/19-theme-clock.png",
+    url: "projects/theme-clock/index.html",
+  },
+  {
+    number: 19,
+    name: "点击水纹",
+    imgLink: "public/images/projectImages/20-button-ripple-effect.png",
+    url: "projects/button-ripple-effect/index.html",
+  },
 ];
 
 const projectsEl = document.getElementById("projects");
